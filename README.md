@@ -66,12 +66,25 @@ See the files for a self-explanatory reading of them.
 ---
 
 ## Code Organization
- There are 2 directories:
+ There are 3 directories:
   - notebook: which contains the 3 notebooks;
-  - data: which contains a very small structured data.
+  - data: which contains a very small structured data;
+  - conf: which contains the Containerfile with all the relevant information about the prerequisites of the program
+    and, more than that, a easy way to reproduce the environment.
 
 ---
 
 ## Further Steps
+This section will show a suggested path to deploy this ML funcionality on production environment.
 
-After 
+### Step 1
+Code refactoring. The code already has classes and modules which were designed to be reused anywere.
+Therefore these classes must be separated from the notebooks and python modules must be created for them.
+Notebooks already induce possible modularizations for them. 
+
+After refactoring, the application should run as a python program callable from a command line. 
+
+### Step 2
+This solution is required to run in a on-premises environment. It should run on all existing clusters of
+computers we have in-house. To do this, we strongly suggest using containers for deploying the program
+inside a container image.
