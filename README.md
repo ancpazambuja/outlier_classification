@@ -65,10 +65,13 @@ See the files for a self-explanatory reading of them.
 
 ---
 
-## Further Steps
-
-After 
 ## Code Organization
  There are 2 directories:
   - notebook: which contains the 3 notebooks;
   - data: which contains a very small structured data.
+
+---
+
+## Further Steps
+
+After 
