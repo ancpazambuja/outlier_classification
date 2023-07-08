@@ -38,4 +38,11 @@ In the other way, given **a tuple of attributes representing a work unit**, when
 ### **Machine Learning Criteria**:
 **The machine learning model must be more accurate than the automation module in use today** - based in statistical analysis.
 
+## Methodology
 
+This work is composed by a series of 3 python notebooks:
+ - *exploratory_analysis.ipynb;*
+ - *pre_processing.ipynb; and*
+ - *outlier_classification.ipynb.*
+
+See the files for a self-explanatory reading of them.
