@@ -1,6 +1,8 @@
 # outlier_classification
 Unsupervised classification of execution time outliers of running jobs in a HPC environment.
 
+---
+
 ## Context
 High-performance computing (HPC) environments are complex. Both hardware infrastructure and software development have specific needs.
 
@@ -10,15 +12,21 @@ Even so, distributed applications running in HPC environments must be very fault
 
 Despite all efforts, it is not uncommon to find jobs that run slower than usual. This slowdown is often due to problems in the hardware infrastructure.
 
+---
+
 ## Objective
 The main objective of this project is:
  - given the **execution time** of an unit of work, its **characteristics** and **history** of execution times of all kind of tasks, answer if this unit of work ran slower than usual.
+
+---
 
 ## Important Restrictions
  - The history consists of application's log files which:
      - are **unstructured** and **unlabeled** data;
      - have **more than terabytes** of data.
  - Should be a complete **unsupervised** solution.
+
+---
 
 ## User Story
 
@@ -44,6 +52,8 @@ In the other way, given **a tuple of attributes representing a work unit**, when
 
 **The machine learning model must be more accurate than the automation module in use today** - based in statistical analysis.
 
+---
+
 ## Methodology
 
 This work is composed by a series of 3 python notebooks:
@@ -53,8 +63,11 @@ This work is composed by a series of 3 python notebooks:
 
 See the files for a self-explanatory reading of them.
 
+---
 
+## Further Steps
 
+After 
 ## Code Organization
  There are 2 directories:
   - notebook: which contains the 3 notebooks;
