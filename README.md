@@ -1,2 +1,2 @@
 # outlier_classification
-Unsupervised classification of outlier in the time execution of jobs in a HPC environment.
+Unsupervised classification of execution time outliers of running jobs in a HPC environment.
