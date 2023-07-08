@@ -12,13 +12,30 @@ Despite all efforts, it is not uncommon to find jobs that run slower than usual.
 
 ## Objective
 The main objective of this project is:
- - given the **execution time** of an unit of work, its **characteristics** and an **history** of execution times, answer if this unit of work run slower than usual.
+ - given the **execution time** of an unit of work, its **characteristics** and **history** of execution times of all kind of tasks, answer if this unit of work ran slower than usual.
 
-## Software Requirements
+## Important Restrictions
  - The history consists of application's log files which:
      - are **unstructured** and **unlabeled** data;
      - have **more than terabytes** of data.
  - Should be a complete **unsupervised** solution.
 
+## User Story
+
+### **Title**:
+Execution Time Outlier Classification
+
+### **Persona**:
+Job Monitor, person or team responsible for ensuring the perfect use of computer clusters.
+
+### **Description**:
+As a **Job Monitor**, I want to **be alerted if a unit of work in a job finishes slower than expected**, so **I can check why it's slow and fix it**.
+
+### **Acceptance Criteria**:
+Given **a tuple of attributes representing a work unit**, when **the execution time is slower than usual**, then **classify it as an outlier**.
+In the other way, given **a tuple of attributes representing a work unit**, when **the execution time is as usual**, then **do nothing**.
+
+### **Machine Learning Criteria**:
+**The machine learning model must be more accurate than the automation module in use today** - based in statistical analysis.
 
 
