@@ -31,11 +31,17 @@ Job Monitor, person or team responsible for ensuring the perfect use of computer
 ### **Description**:
 As a **Job Monitor**, I want to **be alerted if a unit of work in a job finishes slower than expected**, so **I can check why it's slow and fix it**.
 
+### Machine Learning Functionality**:
+The ML module works in 2 steps:
+ - training: should be completely unsupervised. The algorithm should learn from data how to identify anomalous execution times.
+ - inference: given a work unit which has just finished its execution, classify it as outlier or not.
+
 ### **Acceptance Criteria**:
 Given **a tuple of attributes representing a work unit**, when **the execution time is slower than usual**, then **classify it as an outlier**.
 In the other way, given **a tuple of attributes representing a work unit**, when **the execution time is as usual**, then **do nothing**.
 
 ### **Machine Learning Criteria**:
+
 **The machine learning model must be more accurate than the automation module in use today** - based in statistical analysis.
 
 ## Methodology
@@ -46,3 +52,10 @@ This work is composed by a series of 3 python notebooks:
  - *outlier_classification.ipynb.*
 
 See the files for a self-explanatory reading of them.
+
+
+
+## Code Organization
+ There are 2 directories:
+  - notebook: which contains the 3 notebooks;
+  - data: which contains a very small structured data.
