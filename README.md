@@ -17,7 +17,7 @@ The main objective of this project is:
 ## Software Requirements
  - The history consists of application's log files which:
      - are **unstructured** and **unlabeled** data;
-     - has **more than terabytes** of data.
+     - have **more than terabytes** of data.
  - Should be a complete **unsupervised** solution.
 
 
