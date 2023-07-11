@@ -67,7 +67,7 @@ See the files for a self-explanatory reading of them.
 
 ## Code Organization
  There are 3 directories:
-  - notebook: which contains the 3 notebooks;
+  - notebooks: which contains the 3 notebooks;
   - data: which contains a very small structured data;
   - conf: which contains the Containerfile with all the relevant information about the prerequisites of the program
     and, more than that, a easy way to reproduce the environment.
