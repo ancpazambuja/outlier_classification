@@ -4,7 +4,7 @@ This series of notebooks were made for prototyping a solution for the user story
 We use only python and basic libraries.
 
 The Containerfile provided in conf directory has all the needed modules and versions. More than that, one
-could use it containers like podman or singularity to build the environment and run in virtually any machine.
+could use containers like podman or singularity to build the environment and run in virtually any machine.
 
 We strongly recommend you use containers to reproduce these notebooks in your environment.
 
