@@ -39,7 +39,7 @@ Job Monitor, person or team responsible for ensuring the perfect use of computer
 ### **Description**:
 As a **Job Monitor**, I want to **be alerted if a unit of work in a job finishes slower than expected**, so **I can check why it's slow and fix it**.
 
-### Machine Learning Functionality**:
+### **Machine Learning Functionality**:
 The ML module works in 2 steps:
  - training: should be completely unsupervised. The algorithm should learn from data how to identify anomalous execution times.
  - inference: given a work unit which has just finished its execution, classify it as outlier or not.
